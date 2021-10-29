@@ -1,0 +1,138 @@
+body {
+    background-color: violet;
+    
+    display: flex;
+    
+    justify-content: flex-end;
+    
+}
+.content {
+    background: linear-gradient(21deg, #dd03e4, #5611ec);
+    height: 400px;
+    width: 400px;
+    border-radius: 50px 50px 50px 50px / 25px 25px 25px 25px;
+    position: absolute;
+   
+    
+    
+
+}
+.content1 {
+    background:  transparent;
+    height: 200px;
+    width: 200px;
+    box-sizing: border-box;
+    border: 20px solid white;
+    border-radius: 50px 50px 50px 50px / 25px 25px 25px 25px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+}
+.content11 {
+    background: transparent;
+    height: 50px;
+    width: 50px;
+    box-sizing: border-box;
+    border: 10px solid white;
+    border-radius: 50px 50px 50px 50px / 25px 25px 25px 25px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+
+
+}
+.content12 {
+    background: transparent;
+    height: 20px;
+    width: 20px;
+    box-sizing: border-box;
+    border: 20px solid white;
+    border-radius: 50px 50px 50px 50px / 25px 25px 25px 25px;
+    display: flex;
+    float: right;
+
+
+}
+.container {
+    background-color: yellow;
+    width: 1000px;
+    height: 1000px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+.content21 {
+    background-color: white;
+    width: 100px;
+    height: 200px;
+    clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.content211 {
+    background-color: black;
+    height: 30%;
+    width: 30px;
+}
+.content212 {
+    background-color: gray;
+    width: 100px;
+    height: 70%;
+}
+.content22 {
+    background-color: brown;
+    width: 100px;
+    height: 500px;
+    animation-name: content;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes content{
+    0%{
+        background-color: darkred;
+
+    }
+    10%{
+        background-color: red ;
+    }
+    20%{
+        background-color: rgb(128, 29, 29);
+    }
+    30%{
+        background-color:rgb(255, 14, 14) ;
+    }
+    40%{
+        background-color: rgb(173, 35, 35);
+    }
+    50%{
+        background-color: rgb(216, 59, 59);
+    }
+    60%{
+        background-color: rgb(177, 37, 37);
+    }
+    70%{
+        background-color: rgb(172, 20, 20);
+    }
+    80%{
+        background-color: rgb(168, 10, 10);
+    }
+    90%{
+        background-color: rgb(184, 19, 19);
+    }
+    100%{
+        background-color: red;
+    }
+}
